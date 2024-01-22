@@ -96,7 +96,8 @@ hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#ef5939
-hi Heading         guifg=#ef5939
+hi @markup         guifg=#ef5939
+hi @spell          guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
@@ -194,14 +195,9 @@ hi Repeat          ctermfg=197               cterm=bold
 
 hi Tag             ctermfg=197
 hi Title           ctermfg=203
-hi Heading         ctermfg=203
 hi Visual                      ctermbg=238
 
 hi Comment         ctermfg=244
 hi LineNr          ctermfg=239 ctermbg=235
 hi NonText         ctermfg=239
 hi SpecialKey      ctermfg=239
-
-" Must be at the end, because of ctermbg=234 bug.
-" https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
-set background=dark
