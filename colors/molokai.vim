@@ -14,6 +14,8 @@ if exists("syntax_on")
 endif
 let g:colors_name="molokai"
 
+syntax match Title /@markup.heading/ contained
+
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
@@ -96,7 +98,7 @@ hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#ef5939
-hi @markup.heading guifg=#ef5939
+" hi @markup.heading guifg=#ef5939               gui=bold
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
