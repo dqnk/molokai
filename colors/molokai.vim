@@ -14,8 +14,15 @@ if exists("syntax_on")
 endif
 let g:colors_name="molokai"
 
-hi link @markup.heading Title
+" Treesitter breaking changes
+hi link @module Identifier
 hi link @markup @text
+hi link @markup.heading Title
+hi link @markup.raw Comment
+hi link @markup.link Identifier
+hi link @markup.link.url Underlined
+hi link @markup.link.label SpecialChar
+hi link @markup.list Delimiter
 
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
@@ -99,7 +106,6 @@ hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#ef5939
-" hi @markup.heading guifg=#ef5939               gui=bold
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
