@@ -63,7 +63,7 @@ hi Folded          guifg=#465457 guibg=NONE    ctermfg=242 ctermbg=NONE
 
 hi Function        guifg=#A6E22E
 hi Identifier      guifg=#FD971F
-hi Builtin         guifg=#BCBCBC
+hi Builtin         guifg=#CCCCCC
 hi Ignore          guifg=#808080 guibg=bg
 
 hi Keyword         guifg=#F92672               gui=bold
