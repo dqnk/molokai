@@ -63,7 +63,7 @@ hi Folded          guifg=#465457 guibg=NONE    ctermfg=242 ctermbg=NONE
 
 hi Function        guifg=#A6E22E
 hi Identifier      guifg=#FD971F
-hi Builtin         guifg=#808080
+hi Builtin         guifg=#F8F8F2
 hi Ignore          guifg=#808080 guibg=bg
 
 hi Keyword         guifg=#F92672               gui=bold
@@ -198,7 +198,7 @@ hi Directory       ctermfg=154               cterm=bold
 hi Float           ctermfg=141
 hi Function        ctermfg=154
 hi Identifier      ctermfg=208
-hi Builtin         ctermfg=244
+hi Builtin         ctermfg=252
 
 hi Keyword         ctermfg=197               cterm=bold
 hi Operator        ctermfg=197
