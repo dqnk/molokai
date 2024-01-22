@@ -14,7 +14,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="molokai"
 
-vim.api.nvim_set_hl(0, "markup.heading", { link = "Title" })
+vim.api.nvim_set_hl(0, "@markup", { link = "Title" })
 
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
