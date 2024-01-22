@@ -194,6 +194,7 @@ hi Repeat          ctermfg=197               cterm=bold
 
 hi Tag             ctermfg=197
 hi Title           ctermfg=203
+hi Heading         ctermfg=203
 hi Visual                      ctermbg=238
 
 hi Comment         ctermfg=244
