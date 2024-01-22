@@ -96,7 +96,7 @@ hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#ef5939
-hi @markup         guifg=#ef5939
+hi @markup.heading guifg=#ef5939
 hi @spell          guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
