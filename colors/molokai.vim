@@ -14,7 +14,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="molokai"
 
-hi link @variable.builtin Builtin
+hi! link @variable.builtin Builtin
 
 " Treesitter breaking changes
 hi link @module Identifier
