@@ -14,6 +14,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="molokai"
 
+hi link @markup Title
 
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
