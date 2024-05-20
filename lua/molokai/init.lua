@@ -21,6 +21,7 @@ function molokai.setup()
 		dirty_yellow = "#FFE792",
 		boring_gray = "#4C4745",
 		pale_red = "#EF5939",
+		red_gray = "#DFCFCF",
 	}
 	local highlights = {
 		-- Treesitter highlights
@@ -40,6 +41,7 @@ function molokai.setup()
 		{ "@function", { fg = colors.green } },
 		{ "@include", { fg = colors.blue, italic = true } },
 		{ "@keyword", { fg = colors.red, bold = true } },
+		{ "@keyword.modifier", { fg = colors.red, bold = true } },
 		{ "@label", { fg = colors.yellow } },
 		{ "@method", { fg = colors.green } },
 		{ "@module", { fg = colors.orange } },
@@ -60,9 +62,10 @@ function molokai.setup()
 		{ "@text", { fg = colors.white } },
 		{ "@text.title", { fg = colors.green, bold = true } },
 		{ "@text.literal", { fg = colors.yellow, italic = true } },
-		{ "@type", { fg = colors.blue } },
-		{ "@type.definition", { fg = colors.blue } },
+		{ "@type", { fg = colors.orange } },
+		{ "@type.definition", { fg = colors.orange } },
 		{ "@variable", { fg = colors.orange } },
+		{ "@variable.builtin", { fg = colors.orange } },
 		-- Diagnostic
 		{ "DiagnosticError", { fg = colors.red } },
 		{ "DiagnosticWarn", { fg = colors.yellow } },
@@ -90,16 +93,16 @@ function molokai.setup()
 		{ "Directory", { fg = colors.green, bold = true } },
 
 		-- random
-		{ "Function", { fg = "#A6E22E" } },
-		{ "Identifier", { fg = "#FD971F" } },
-		{ "Variable", { fg = "#FD971F" } },
-		{ "LspInlayHint", { fg = "#DFCFCF" } },
+		{ "Function", { fg = colors.green } },
+		{ "Identifier", { fg = colors.orange } },
+		{ "Variable", { fg = colors.orange } },
+		{ "LspInlayHint", { fg = colors.red_gray } },
 		{ "Builtin", { fg = "#FFD180" } },
 		{ "Ignore", { fg = "#808080", bg = colors.bg } },
 		{ "Keyword", { fg = "#F92672", bold = true } },
 		{ "Label", { fg = "#E6DB74" } },
 		{ "Macro", { fg = "#C4BE89", italic = true } },
-		{ "SpecialKey", { fg = "#66D9EF", italic = true } },
+		--{ "SpecialKey", { fg = "#66D9EF", italic = true } },
 		{ "MatchParen", { fg = "#000000", bg = "#FD971F", ctermfg = 000, ctermbg = 208 } },
 		{ "ModeMsg", { fg = "#E6DB74" } },
 		{ "MoreMsg", { fg = "#E6DB74" } },
