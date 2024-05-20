@@ -49,7 +49,7 @@ function molokai.setup()
 		{ "@parameter", { fg = colors.orange } },
 		{ "@property", { fg = colors.orange } },
 		{ "@punctuation.bracket", { fg = colors.gray } },
-		{ "@punctuation.delimiter", { fg = colors.gray } },
+		{ "@punctuation.delimiter", { fg = colors.light_gray } },
 		{ "@punctuation.special", { fg = colors.white } },
 		{ "@string", { fg = colors.yellow } },
 		{ "@string.escape", { fg = colors.red } },
