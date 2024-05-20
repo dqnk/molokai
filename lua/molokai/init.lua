@@ -62,7 +62,7 @@ function molokai.setup()
 		{ "@text.title", { fg = colors.green, bold = true } },
 		{ "@text.literal", { fg = colors.yellow, italic = true } },
 		{ "@type", { fg = colors.blue } },
-		{ "@type.special", { fg = colors.blue } },
+		{ "@type.builtin", { link = "@type" } },
 		{ "@type.definition", { fg = colors.orange } },
 		{ "@lsp.type.modifier", { link = "@keyword" } },
 		{ "@variable", { fg = colors.orange } },
