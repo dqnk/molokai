@@ -87,6 +87,7 @@ function molokai.setup()
 		{ "@difftext.change", { fg = "white", bg = colors.boring_gray, ctermfg = 255, ctermbg = 239 } },
 		{ "@difftext.delete", { fg = "white", bg = colors.bright_red, ctermfg = 255, ctermbg = 196 } },
 		{ "@difftext.modified", { fg = "#000000", bg = colors.light_orange, ctermfg = 0, ctermbg = 214 } },
+		{ "Directory", { guifg = colors.green, bold = true } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
