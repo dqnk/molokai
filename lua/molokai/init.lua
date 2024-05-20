@@ -121,7 +121,7 @@ function molokai.setup()
 		-- diff (unified)
 		{ "diffAdded", { fg = "#2BFF2B" } },
 		{ "diffRemoved", { fg = "#FF2B2B" } },
-		{ "diffSubname", "Normal" },
+		{ "diffSubname", { link = "Normal" } },
 		-- diff (side-by-side)
 		{ "DiffAdd", { fg = "black", bg = "#2BFF2B" } },
 		{
