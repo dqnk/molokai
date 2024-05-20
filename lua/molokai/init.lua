@@ -103,7 +103,6 @@ function molokai.setup()
 		{ "Keyword", { fg = "#F92672", bold = true } },
 		{ "Label", { fg = "#E6DB74" } },
 		{ "Macro", { fg = "#C4BE89", italic = true } },
-		--{ "SpecialKey", { fg = "#66D9EF", italic = true } },
 		{ "MatchParen", { fg = "#000000", bg = "#FD971F", ctermfg = 000, ctermbg = 208 } },
 		{ "ModeMsg", { fg = "#E6DB74" } },
 		{ "MoreMsg", { fg = "#E6DB74" } },
@@ -115,6 +114,8 @@ function molokai.setup()
 		{ "Search", { fg = "#000000", bg = "#FFE792", ctermfg = 0, ctermbg = 222 } },
 		{ "IncSearch", { fg = "#C4BE89", bg = "#000000", ctermfg = 193, ctermbg = 16 } },
 		{ "LineNr", { fg = colors.light_gray } },
+		{ "Special", { fg = colors.blue, bg = "bg", italic = true } },
+		{ "SpecialKey", { fg = colors.blue, italic = true } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
