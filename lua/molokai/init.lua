@@ -9,7 +9,7 @@ function molokai.setup()
 		bright_green = "#2BFF2B",
 		bright_red = "#FF2B2B",
 		yellow = "#E6DB74",
-		blue = "#FF0000",
+		blue = "#66D9EF",
 		purple = "#AE81FF",
 		orange = "#FD971F",
 		light_orange = "#FFB733",
@@ -117,25 +117,6 @@ function molokai.setup()
 		{ "Statement", { link = "@keyword" } },
 		{ "Normal", { fg = colors.dirty_white, bg = colors.bg } },
 		{ "ColorColumn", { bg = colors.bg } },
-
-		-- diff (unified)
-		{ "diffAdded", { fg = "#2BFF2B" } },
-		{ "diffRemoved", { fg = "#FF2B2B" } },
-		{ "diffSubname", { link = "Normal" } },
-		-- diff (side-by-side)
-		{ "DiffAdd", { fg = "black", bg = "#2BFF2B" } },
-		{
-			"DiffChange",
-			{ fg = "white", bg = "#4C4745" },
-		},
-		{
-			"DiffDelete",
-			{ fg = "white", bg = "#FF2B2B" },
-		},
-		{
-			"DiffText",
-			{ fg = "#000000", bg = "#ffb733" },
-		},
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
