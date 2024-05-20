@@ -20,6 +20,7 @@ function molokai.setup()
 		light_gray = "#7E8E91",
 		dirty_yellow = "#FFE792",
 		boring_gray = "#4C4745",
+		pale_red = "#EF5939",
 	}
 	local highlights = {
 		-- Treesitter highlights
@@ -48,7 +49,7 @@ function molokai.setup()
 		{ "@parameter", { fg = colors.orange } },
 		{ "@property", { fg = colors.orange } },
 		{ "@punctuation.bracket", { fg = colors.white } },
-		{ "@punctuation.delimiter", { fg = colors.white } },
+		{ "@punctuation.delimiter", { fg = colors.gray } },
 		{ "@punctuation.special", { fg = colors.white } },
 		{ "@string", { fg = colors.yellow } },
 		{ "@string.escape", { fg = colors.red } },
@@ -68,14 +69,13 @@ function molokai.setup()
 		{ "DiagnosticInfo", { fg = colors.blue } },
 		{ "DiagnosticHint", { fg = colors.green } },
 		-- Markup
-		--{ "@markup", "@text" },
-		--{ "@markup.heading", "Title" },
-		--{ "@markup.raw", "Comment" },
-		--{ "@markup.link", "Identifier" },
-		--{ "@markup.link.url", "Underlined" },
-		--{ "@markup.link.label", "SpecialChar" },
-		--{ "@markup.list", "Delimiter" },
-		--{ "@boolean", "Boolean" },
+		{ "@markup", { link = "@text" } },
+		{ "@markup.heading", { fg = colors.pale_red } },
+		{ "@markup.raw", { link = "@comment" } },
+		{ "@markup.link", { fg = colors.orange } },
+		{ "@markup.link.url", { fg = "#808080", gui = "underline" } },
+		{ "@markup.link.label", { link = "@string.escape" } },
+		{ "@markup.list", { link = "@punctuation.delimiter" } },
 		-- Diff
 		{ "@diff.plus", { fg = colors.bright_green, ctermfg = 46 } },
 		{ "@diff.minus", { fg = colors.bright_red, ctermfg = 196 } },
