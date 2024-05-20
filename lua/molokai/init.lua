@@ -41,7 +41,7 @@ function molokai.setup()
 		{ "@function", { fg = colors.green } },
 		{ "@include", { fg = colors.blue, italic = true } },
 		{ "@keyword", { fg = colors.red, bold = true } },
-		{ "@keyword.modifier", { fg = colors.red, bold = true } },
+		{ "@keyword.modifier", { fg = colors.red, bold = true, priority = 200 } },
 		{ "@label", { fg = colors.yellow } },
 		{ "@method", { fg = colors.green } },
 		{ "@module", { fg = colors.orange } },
