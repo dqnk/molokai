@@ -97,7 +97,7 @@ function molokai.setup()
 		{ "Function", { fg = colors.green } },
 		{ "Identifier", { fg = colors.orange } },
 		{ "Variable", { fg = colors.orange } },
-		{ "LspInlayHint", { fg = colors.red_gray } },
+		{ "LspInlayHint", { fg = colors.boring_gray } },
 		{ "Builtin", { fg = "#FFD180" } },
 		{ "Ignore", { fg = "#808080", bg = colors.bg } },
 		{ "Keyword", { fg = "#F92672", bold = true } },
