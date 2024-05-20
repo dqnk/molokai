@@ -15,7 +15,7 @@ function molokai.setup()
 		light_orange = "#FFB733",
 		white = "#FFFFFF",
 		dirty_white = "#F8F8F2",
-		light_gray = "#ABABAB",
+		light_gray = "#FF0000",
 		black = "#000000",
 		gray = "#808080",
 		dark_gray = "#465457",
@@ -115,7 +115,7 @@ function molokai.setup()
 		{ "LineNr", { fg = colors.light_gray } },
 		{ "Constant", { link = "@constant" } },
 		{ "Statement", { link = "@keyword" } },
-		--{ "Normal", { fg = colors.dirty_white, bg = colors.bg } },
+		{ "Normal", { fg = colors.dirty_white, bg = colors.bg } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
