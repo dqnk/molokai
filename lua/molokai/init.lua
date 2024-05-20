@@ -9,7 +9,7 @@ function molokai.setup()
 		bright_green = "#2BFF2B",
 		bright_red = "#FF2B2B",
 		yellow = "#E6DB74",
-		blue = "#66D9EF",
+		blue = "#FF0000",
 		purple = "#AE81FF",
 		orange = "#FD971F",
 		light_orange = "#FFB733",
