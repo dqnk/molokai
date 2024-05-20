@@ -89,10 +89,10 @@ function molokai.setup()
 		{ "@difftext.modified", { fg = "#000000", bg = colors.light_orange, ctermfg = 0, ctermbg = 214 } },
 		{ "Directory", { fg = colors.green, bold = true } },
 
+		-- random
 		{ "Function", { fg = "#A6E22E" } },
 		{ "Identifier", { fg = "#FD971F" } },
 		{ "Variable", { fg = "#FD971F" } },
-		{ "@variable", { fg = "#FD971F" } },
 		{ "LspInlayHint", { fg = "#DFCFCF" } },
 		{ "Builtin", { fg = "#FFD180" } },
 		{ "Ignore", { fg = "#808080", bg = colors.bg } },
