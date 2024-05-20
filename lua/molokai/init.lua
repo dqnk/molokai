@@ -91,6 +91,12 @@ function molokai.setup()
 		{ "@difftext.delete", { fg = colors.white, bg = colors.bright_red, ctermfg = 255, ctermbg = 196 } },
 		{ "@difftext.modified", { fg = colors.black, bg = colors.light_orange, ctermfg = 0, ctermbg = 214 } },
 		{ "Directory", { fg = colors.green, bold = true } },
+		{ "DiffAdd", { fg = colors.bright_green, ctermfg = 46 } },
+		{ "DiffDelete", { fg = colors.bright_red, ctermfg = 196 } },
+		{ "DiffChange", { fg = colors.white, bg = colors.dark_gray, ctermfg = 255, ctermbg = 239 } },
+		{ "SignifySignAdd", { link = "DiffAdd" } },
+		{ "SignifySignDelete", { link = "DiffDelete" } },
+		{ "SignifySignChange", { link = "DiffChange" } },
 
 		-- random
 		{ "Function", { fg = colors.green } },
