@@ -1,1 +1,4 @@
-lua require('molokai').setup()
+lua << EOF
+local molokai = require("molokai")
+molokai.setup({})
+EOF
