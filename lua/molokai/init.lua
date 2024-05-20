@@ -48,7 +48,7 @@ function molokai.setup()
 		{ "@operator", { fg = colors.red } },
 		{ "@parameter", { fg = colors.orange } },
 		{ "@property", { fg = colors.orange } },
-		{ "@punctuation.bracket", { fg = colors.white } },
+		{ "@punctuation.bracket", { fg = colors.gray } },
 		{ "@punctuation.delimiter", { fg = colors.gray } },
 		{ "@punctuation.special", { fg = colors.white } },
 		{ "@string", { fg = colors.yellow } },
