@@ -17,11 +17,10 @@ function molokai.setup()
 		black = "#000000",
 		gray = "#808080",
 		dark_gray = "#465457",
-		light_gray = "#ABABAB",
 		dirty_yellow = "#FFE792",
 		boring_gray = "#4C4745",
 		pale_red = "#EF5939",
-		red_gray = "#DFCFCF",
+		light_gray = "#F8F8F2",
 	}
 	local highlights = {
 		-- Treesitter highlights
@@ -116,6 +115,7 @@ function molokai.setup()
 		{ "LineNr", { fg = colors.light_gray } },
 		{ "Constant", { link = "@constant" } },
 		{ "Statement", { link = "@keyword" } },
+		{ "Normal", { fg = colors.light_gray, bg = colors.bg } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
