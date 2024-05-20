@@ -112,6 +112,8 @@ function molokai.setup()
 		{ "PmenuSel", { fg = "white", bg = "#0a9dff", ctermfg = 255, ctermbg = 242 } },
 		{ "PmenuSbar", { bg = "#857f78", ctermbg = 232 } },
 		{ "PmenuThumb", { fg = "#242321", ctermfg = 81 } },
+		{ "Search", { fg = "#000000", bg = "#FFE792", ctermfg = 0, ctermbg = 222 } },
+		{ "IncSearch", { fg = "#C4BE89", bg = "#000000", ctermfg = 193, ctermbg = 16 } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
