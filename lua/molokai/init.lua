@@ -88,6 +88,26 @@ function molokai.setup()
 		{ "@difftext.delete", { fg = "white", bg = colors.bright_red, ctermfg = 255, ctermbg = 196 } },
 		{ "@difftext.modified", { fg = "#000000", bg = colors.light_orange, ctermfg = 0, ctermbg = 214 } },
 		{ "Directory", { fg = colors.green, bold = true } },
+
+		{ "Function", { fg = "#A6E22E" } },
+		{ "Identifier", { fg = "#FD971F" } },
+		{ "Variable", { fg = "#FD971F" } },
+		{ "@variable", { fg = "#FD971F" } },
+		{ "LspInlayHint", { fg = "#DFCFCF" } },
+		{ "Builtin", { fg = "#FFD180" } },
+		{ "Ignore", { fg = "#808080", bg = colors.bg } },
+		{ "Keyword", { fg = "#F92672", bold = true } },
+		{ "Label", { fg = "#E6DB74" } },
+		{ "Macro", { fg = "#C4BE89", italic = true } },
+		{ "SpecialKey", { fg = "#66D9EF", italic = true } },
+		{ "MatchParen", { fg = "#000000", guibg = "#FD971F", ctermfg = 000, ctermbg = 208 } },
+		{ "ModeMsg", { fg = "#E6DB74" } },
+		{ "MoreMsg", { fg = "#E6DB74" } },
+		{ "Operator", { fg = "#F92672" } },
+		{ "Pmenu", { fg = "white", guibg = "#000000", ctermfg = 255, ctermbg = 16 } },
+		{ "PmenuSel", { fg = "white", guibg = "#0a9dff", ctermfg = 255, ctermbg = 242 } },
+		{ "PmenuSbar", { bg = "#857f78", ctermbg = 232 } },
+		{ "PmenuThumb", { fg = "#242321", ctermfg = 81 } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
