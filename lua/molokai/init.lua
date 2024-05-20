@@ -119,22 +119,22 @@ function molokai.setup()
 		{ "ColorColumn", { bg = colors.bg } },
 
 		-- diff (unified)
-		{ "diffAdded", { guifg = "#2BFF2B", gui = "NONE", ctermfg = 46, cterm = "NONE" } },
-		{ "diffRemoved", { guifg = "#FF2B2B", gui = "NONE", ctermfg = 196, cterm = "NONE" } },
+		{ "diffAdded", { fg = "#2BFF2B" } },
+		{ "diffRemoved", { fg = "#FF2B2B" } },
 		{ "diffSubname", "Normal" },
 		-- diff (side-by-side)
-		{ "DiffAdd", { guifg = "black", guibg = "#2BFF2B", ctermfg = 0, ctermbg = 46, gui = "NONE", cterm = "NONE" } },
+		{ "DiffAdd", { fg = "black", bg = "#2BFF2B" } },
 		{
 			"DiffChange",
-			{ guifg = "white", guibg = "#4C4745", ctermfg = 255, ctermbg = 239, gui = "NONE", cterm = "NONE" },
+			{ fg = "white", bg = "#4C4745" },
 		},
 		{
 			"DiffDelete",
-			{ guifg = "white", guibg = "#FF2B2B", ctermfg = 255, ctermbg = 196, gui = "NONE", cterm = "NONE" },
+			{ fg = "white", bg = "#FF2B2B" },
 		},
 		{
 			"DiffText",
-			{ guifg = "#000000", guibg = "#ffb733", gui = "NONE", ctermfg = 000, ctermbg = 214, cterm = "NONE" },
+			{ fg = "#000000", bg = "#ffb733" },
 		},
 	}
 	for _, highlight in ipairs(highlights) do
