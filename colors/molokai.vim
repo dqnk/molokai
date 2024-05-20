@@ -25,6 +25,7 @@ hi link @markup.link Identifier
 hi link @markup.link.url Underlined
 hi link @markup.link.label SpecialChar
 hi link @markup.list Delimiter
+hi link @boolean Boolean
 
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
