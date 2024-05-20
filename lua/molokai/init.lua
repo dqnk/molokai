@@ -73,7 +73,7 @@ function molokai.setup()
 		{ "@markup.heading", { fg = colors.pale_red } },
 		{ "@markup.raw", { link = "@comment" } },
 		{ "@markup.link", { fg = colors.orange } },
-		{ "@markup.link.url", { fg = "#808080", style = "underline" } },
+		{ "@markup.link.url", { fg = "#808080", underline = true } },
 		{ "@markup.link.label", { link = "@string.escape" } },
 		{ "@markup.list", { link = "@punctuation.delimiter" } },
 		-- Diff
