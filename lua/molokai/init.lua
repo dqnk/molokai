@@ -64,6 +64,7 @@ function molokai.setup()
 		{ "@text.literal", { fg = colors.yellow, italic = true } },
 		{ "@type", { fg = colors.blue } },
 		{ "@type.definition", { fg = colors.orange } },
+		{ "@lsp.type.modifier", { link = "@keyword" } },
 		{ "@variable", { fg = colors.orange } },
 		{ "@variable.builtin", { fg = colors.orange } },
 		-- Diagnostic
