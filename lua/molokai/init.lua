@@ -115,6 +115,7 @@ function molokai.setup()
 		{ "IncSearch", { fg = "#C4BE89", bg = "#000000", ctermfg = 193, ctermbg = 16 } },
 		{ "LineNr", { fg = colors.light_gray } },
 		{ "Constant", { link = "@constant" } },
+		{ "Statement", { link = "@keyword" } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
