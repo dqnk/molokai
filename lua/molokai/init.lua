@@ -117,6 +117,25 @@ function molokai.setup()
 		{ "Statement", { link = "@keyword" } },
 		{ "Normal", { fg = colors.dirty_white, bg = colors.bg } },
 		{ "ColorColumn", { bg = colors.bg } },
+
+		-- diff (unified)
+		{ "diffAdded", { guifg = "#2BFF2B", gui = "NONE", ctermfg = 46, cterm = "NONE" } },
+		{ "diffRemoved", { guifg = "#FF2B2B", gui = "NONE", ctermfg = 196, cterm = "NONE" } },
+		{ "diffSubname", "Normal" },
+		-- diff (side-by-side)
+		{ "DiffAdd", { guifg = "black", guibg = "#2BFF2B", ctermfg = 0, ctermbg = 46, gui = "NONE", cterm = "NONE" } },
+		{
+			"DiffChange",
+			{ guifg = "white", guibg = "#4C4745", ctermfg = 255, ctermbg = 239, gui = "NONE", cterm = "NONE" },
+		},
+		{
+			"DiffDelete",
+			{ guifg = "white", guibg = "#FF2B2B", ctermfg = 255, ctermbg = 196, gui = "NONE", cterm = "NONE" },
+		},
+		{
+			"DiffText",
+			{ guifg = "#000000", guibg = "#ffb733", gui = "NONE", ctermfg = 000, ctermbg = 214, cterm = "NONE" },
+		},
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
