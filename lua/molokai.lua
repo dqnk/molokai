@@ -73,8 +73,8 @@ local highlights = {
 	--{ "@boolean", "Boolean" },
 	-- Diff
 	{ "@diff.plus", { fg = colors.green } },
-	{ "@diff.minus" },
-	{ "@diff.delta" },
+	--{ "@diff.minus" },
+	--{ "@diff.delta" },
 	{ "@diff.add", { fg = "#2BFF2B", ctermfg = 46 } },
 	{ "@diff.delete", { fg = "#FF2B2B", ctermfg = 196 } },
 	{ "@diff.change", { fg = "white", bg = "#4C4745", ctermfg = 255, ctermbg = 239 } },
