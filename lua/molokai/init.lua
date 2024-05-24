@@ -65,6 +65,8 @@ function molokai.setup()
 		{ "@type.builtin", { link = "@type" } },
 		{ "@type.definition", { fg = colors.orange } },
 		{ "@lsp.type.modifier", { link = "@keyword" } },
+		{ "@lsp.type.formatSpecifier", { fg = colors.blue } },
+		{ "@lsp.type.builtinType", { link = "@type" } },
 		{ "@variable", { fg = colors.orange } },
 		{ "@variable.builtin", { fg = colors.orange } },
 		-- Diagnostic
