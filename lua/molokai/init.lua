@@ -76,7 +76,7 @@ function molokai.setup()
 		{ "DiagnosticHint", { fg = colors.green } },
 		-- Markup
 		{ "@markup", { link = "@text" } },
-		{ "@markup.heading", { fg = colors.pale_red } },
+		{ "@markup.heading", { fg = colors.pale_red, bold = true } },
 		{ "@markup.raw", { link = "@comment" } },
 		{ "@markup.link", { fg = colors.orange } },
 		{ "@markup.link.url", { fg = "#808080", underline = true } },
