@@ -128,6 +128,7 @@ function molokai.setup()
 		{ "Statement", { link = "@keyword" } },
 		{ "Normal", { fg = colors.dirty_white, bg = colors.bg } },
 		{ "ColorColumn", { bg = colors.bg } },
+		{ "String", { link = "@string" } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
