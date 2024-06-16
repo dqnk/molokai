@@ -15,7 +15,7 @@ function molokai.setup()
 		light_orange = "#FFB733",
 		white = "#FFFFFF",
 		dirty_white = "#F8F8F2",
-		light_gray = "#CCCCCC",
+		light_gray = "#ABABAB",
 		black = "#000000",
 		gray = "#808080",
 		dark_gray = "#465457",
