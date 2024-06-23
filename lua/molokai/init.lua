@@ -26,7 +26,7 @@ function molokai.setup()
 		-- Treesitter highlights
 		{ "@annotation", { fg = colors.blue } },
 		{ "@attribute", { fg = colors.green } },
-		{ "@boolean", { fg = colors.purple } },
+		{ "@boolean", { fg = colors.purple, bold = true } },
 		{ "@character", { fg = colors.yellow } },
 		{ "@comment", { fg = colors.gray } },
 		{ "@conditional", { fg = colors.red, bold = true } },
@@ -67,7 +67,13 @@ function molokai.setup()
 		{ "@type.definition", { fg = colors.orange } },
 		{ "@lsp.type.modifier", { link = "@keyword" } },
 		{ "@lsp.type.formatSpecifier", { fg = colors.blue } },
+		{ "@lsp.typemod.property", { link = "@property" } },
+		{ "@lsp.typemod.readonly", { link = "@constant" } },
 		{ "@lsp.type.builtinType", { link = "@type" } },
+		{ "@lsp.typemod.variable.readonly", { link = "@constant" } },
+		-- constants in react
+		{ "@lsp.mod.readonly.typescriptreact", { link = "@variable" } },
+		{ "@lsp.typemod.variable.readonly.typescriptreact", { link = "@variable" } },
 		{ "@variable", { fg = colors.orange } },
 		{ "@variable.builtin", { fg = colors.orange } },
 		-- Diagnostic
