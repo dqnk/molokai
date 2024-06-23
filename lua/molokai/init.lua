@@ -30,7 +30,7 @@ function molokai.setup()
 		{ "@character", { fg = colors.yellow } },
 		{ "@comment", { fg = colors.gray } },
 		{ "@conditional", { fg = colors.red, bold = true } },
-		{ "@constant.builtin", { fg = colors.orange, bold = true } },
+		{ "@constant.builtin", { fg = colors.purple, bold = true } },
 		{ "@constant", { fg = colors.purple, bold = true } },
 		{ "@constructor", { fg = colors.blue } },
 		{ "@error", { fg = colors.red, bg = colors.bg, bold = true } },
