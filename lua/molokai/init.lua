@@ -57,6 +57,7 @@ function molokai.setup()
 		{ "@string.special", { fg = colors.blue } },
 		{ "@symbol", { fg = colors.purple } },
 		{ "@tag", { fg = colors.red } },
+		{ "@tag.builtin", { link = "@tag" } },
 		{ "@tag.delimiter", { fg = colors.gray } },
 		{ "@text", { fg = colors.white } },
 		{ "@text.title", { fg = colors.green, bold = true } },
