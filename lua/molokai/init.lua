@@ -46,6 +46,7 @@ function molokai.setup()
 		{ "@module", { fg = colors.orange } },
 		{ "@namespace", { fg = colors.blue } },
 		{ "@number", { fg = colors.purple } },
+		{ "@number.float", { link = "@number" } },
 		{ "@operator", { fg = colors.red } },
 		{ "@parameter", { fg = colors.orange } },
 		{ "@property", { fg = colors.orange } },
