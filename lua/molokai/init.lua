@@ -8,8 +8,9 @@ function molokai.setup()
 		green = "#A6E22E",
 		bright_green = "#2BFF2B",
 		bright_red = "#FF2B2B",
-		yellow = "#E6DB74",
+		yellow = "#E6DB64",
 		blue = "#66D9EF",
+		dark_blue = "#1177FF",
 		purple = "#AE81FF",
 		orange = "#FD971F",
 		light_orange = "#FFB733",
@@ -138,6 +139,15 @@ function molokai.setup()
 		{ "ColorColumn", { bg = colors.bg } },
 		{ "String", { link = "@string" } },
 		{ "Type", { link = "@type" } },
+		{ "MiniIconsYellow", { fg = colors.yellow } },
+		{ "MiniIconsPurple", { fg = colors.purple } },
+		{ "MiniIconsOrange", { fg = colors.orange } },
+		{ "MiniIconsGreen", { fg = colors.bright_green } },
+		{ "MiniIconsAzure", { fg = colors.blue } },
+		{ "MiniIconsGrey", { fg = colors.gray } },
+		{ "MiniIconsCyan", { fg = colors.green } },
+		{ "MiniIconsBlue", { fg = colors.dark_blue } },
+		{ "MiniIconsRed", { fg = colors.red } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
