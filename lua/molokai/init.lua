@@ -149,6 +149,7 @@ function molokai.setup()
 		{ "MiniIconsCyan", { fg = colors.green } },
 		{ "MiniIconsBlue", { fg = colors.dark_blue } },
 		{ "MiniIconsRed", { fg = colors.red } },
+		{ "LspReferenceText", { underline = true } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
