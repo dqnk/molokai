@@ -67,7 +67,7 @@ function molokai.setup()
 		{ "@type", { fg = colors.blue } },
 		{ "@type.builtin", { link = "@type" } },
 		{ "@type.definition", { fg = colors.orange } },
-		{ "@lsp.mod.builtin", { link = "@type" } },
+		{ "@lsp.mod.builtin", { link = "Special" } },
 		{ "@lsp.type.modifier", { link = "@keyword" } },
 		{ "@lsp.type.formatSpecifier", { fg = colors.blue } },
 		{ "@lsp.typemod.property", { link = "@property" } },
