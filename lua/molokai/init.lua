@@ -67,6 +67,7 @@ function molokai.setup()
 		{ "@type", { fg = colors.blue } },
 		{ "@type.builtin", { link = "@type" } },
 		{ "@type.definition", { fg = colors.orange } },
+		{ "@lsp.mod.builtin", { link = "@type" } },
 		{ "@lsp.type.modifier", { link = "@keyword" } },
 		{ "@lsp.type.formatSpecifier", { fg = colors.blue } },
 		{ "@lsp.typemod.property", { link = "@property" } },
@@ -150,7 +151,6 @@ function molokai.setup()
 		{ "MiniIconsBlue", { fg = colors.dark_blue } },
 		{ "MiniIconsRed", { fg = colors.red } },
 		{ "LspReferenceText", { underline = true } },
-		{ "@lsp.mod.builtin.python", { fg = colors.blue } },
 	}
 	for _, highlight in ipairs(highlights) do
 		local group, props = highlight[1], highlight[2]
